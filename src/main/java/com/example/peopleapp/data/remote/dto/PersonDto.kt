@@ -13,7 +13,7 @@ data class Results(
 @JsonClass(generateAdapter = true)
 data class PersonDto (
    @Json(name = "name")
-    val name : String,
+    val name : Name,
    @Json(name = "picture")
     val picture : Picture,
    @Json(name = "nat")
